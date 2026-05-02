@@ -13,7 +13,7 @@ SkyCast is a modern weather forecasting web application built using React and Ta
 ## Tech Stack
 - React.js
 - Tailwind CSS
-- Weather API (e.g., OpenWeatherMap)
+- Weather API 
 
 ## How to Run
 1. Clone the repository
