@@ -1,16 +1,36 @@
-# React + Vite
+# SkyCast 🌤️
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+SkyCast is a modern weather forecasting web application built using React and Tailwind CSS. It provides real-time weather updates, 5-day forecasts, and location-based weather detection.
 
-Currently, two official plugins are available:
+## Features
+- 🌍 Detects current location automatically
+- 🔍 Search weather by city name
+- 🌡️ Temperature unit conversion (Celsius ↔ Fahrenheit)
+- 📅 5-day weather forecast
+- 💧 Displays humidity, temperature, and other details
+- ⚡ Fast and responsive UI
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Tech Stack
+- React.js
+- Tailwind CSS
+- Weather API (e.g., OpenWeatherMap)
 
-## React Compiler
+## How to Run
+1. Clone the repository
+2. Install dependencies:
+   npm install
+3. Start the app:
+   npm start
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Environment Variables
+Create a `.env` file and add:
+REACT_APP_API_KEY=your_api_key_here
 
-## Expanding the ESLint configuration
+##  Future Improvements
+- Add hourly forecast
+- Improve UI/UX
+- Add dark mode
+- Save recent searches
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 👩‍💻 Author
+Anisha Sinha
